@@ -1,0 +1,15 @@
+.navigation {
+    border: 5px double hsl(38, 19%, 51%);
+    background-color: #ae9c80;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+.navigation__link {
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    padding: 5%;
+}
+.navigation__link:hover {
+    color:hsl(38, 19%, 25%);
+    outline: none;
+}

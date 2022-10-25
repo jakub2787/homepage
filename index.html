@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Woźny-moja wizytówka</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<body class="body">
+    <header>
+        <h1 class="header">Jakub Woźny</h1> 
+    </header>
+
+    <nav class="navigation">
+        <a class="navigation__link" href="#o-mnie">O mnie</a>
+        <a class="navigation__link" href="#moje-zainteresowania">Moje zainteresowania</a>
+        <a class="navigation__link" href="#moje-ulubione-gry">Moje ulubione gry</a>
+    </nav>
+
+    <main>
+        <section>
+            <img class="image"
+                src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/310539603_3346420798952037_5221928818823318519_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bNdnzKxWbt0AX9Y_8f8&tn=cmVXY5EY9wK_f3l1&_nc_ht=scontent-waw1-1.xx&oh=00_AT-NwhBvm4MpuJxd607V-whjM1DwuYHJfBzDAw8mM0ay9g&oe=6352673F"
+                alt="Moje zdjecie">
+            <br>
+            <button class="button">Włącz <span class="name">ciemny</span> motyw</button>
+        </section>
+
+        <section id="o-mnie" class="textSection">
+            <h2>Trochę o mnie</h2>
+            <p>Mam <b>19 lat</b> mieszkam w <strong>Ustrzykach Dolnych</strong> w małej miejscowości w
+                <strong>Bieszczadach</strong>.<br> Skończyłem liceum
+                na kierunku informatycznym, programowałem w <i>C++</i> jednak nie było to dla mnie dlatego
+                zdecydowałem się na <i>JS</i> <em>i z nim zostanę.</em>
+            </p>
+
+        </section>
+        <section id="moje-zainteresowania" class="textSection">
+            <h2>Moje zainteresowania</h2>
+            <p>Interesuję się <strong>technologią</strong> a dokładniej mówiąc komputerem,jego wszystkimi podzespołami
+                takimi jak karty
+                graficzne, procesory, płyty główne i wiele więcej. Lubię również w wolnym czasem pływać na basenie oraz
+                pograć w gry.</p>
+        </section>
+        <section id="moje-ulubione-gry">
+            <table class="table">
+                <caption class="table__caption">Moje ulubione gry</caption>
+                <tr class="table__row">
+                    <th class="table__header" scope="col">Tytuł</th>
+                    <th class="table__header" scope="col">Wydawca</th>
+                    <th class="table__header" scope="col">Gatunek</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">Wiedźmin 3</th>
+                    <td class="table__cell" rowspan="2">CD Project Red</td>
+                    <td class="table__cell" rowspan="2">RPG</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">Cyberpunk 2077</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">Dying Light 2</th>
+                    <td class="table__cell">Techland</td>
+                    <td class="table__cell">Survival</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">League of Legends</th>
+                    <td class="table__cell">Riot Games</td>
+                    <td class="table__cell">MMORPG</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">Grand Theft Auto V</th>
+                    <td class="table__cell">Rockstar Games</td>
+                    <td class="table__cell">RPG</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__header" scope="row">Assasin's Creed Valhalla</th>
+                    <td class="table__cell">Ubisoft</td>
+                    <td class="table__cell">RPG</td>
+                </tr>
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">©Copyright by Jakub Woźny,październik 2022</footer>
+</body>
+
+
+</html>
