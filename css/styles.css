@@ -24,7 +24,7 @@ html {
     text-shadow: 1px 2px 3px rgb(208 208 208);
 }
 .image {
-    max-width:300px;
+    max-width: 250px;
     border: 2px solid rgb(135, 132, 132);
     border-radius: 25%;
     box-shadow: 5px 5px 18px 0px #3D3933;  
