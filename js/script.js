@@ -1,9 +1,11 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".name");
-
-button.addEventListener("click", () => {
+{
+    const button = document.querySelector(".button");
+const body = document.querySelector(".body");
+const themeName = document.querySelector(".name");
+const onchangeBackgroundClick = () => {
     body.classList.toggle("dark");
 
     themeName.innerText = body.classList.contains("dark") ? "jasny" :"ciemny";
-});
+}
+button.addEventListener("click", onchangeBackgroundClick);
+}
